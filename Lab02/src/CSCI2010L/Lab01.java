@@ -15,6 +15,23 @@ public class Lab01 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		int[] buffer = {10, 56, 1, -45, 101, 33, 31};
+		Lab04 lab = new Lab04();
+		
+		//lab.findMax();
+		int [] sortedArray = lab.mySort(buffer);
+		
+		for(int val: buffer) {
+			System.out.println(val);
+		}
+		
+		System.out.println("------------------");
+		
+		for(int val: sortedArray) {
+			System.out.println(val);
+		}
+		/*	
 		ArrayList<ToDoList> taskList = new ArrayList<ToDoList>();
 		String strTask;
 		ToDoList toDoList;
@@ -70,7 +87,7 @@ public class Lab01 {
 		}while(loop);
 		
 		System.out.printf("Program Terminates!\n");
-		
+	*/	
 			
 	}
 	
