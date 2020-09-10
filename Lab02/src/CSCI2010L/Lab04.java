@@ -23,7 +23,7 @@ public class Lab04 {
 	}
 	
 	public int[] mySort(final int[] param) {
-		int[] buffer = Arrays.copyOf(param, param.length);
+		int[] buffer = param;//Arrays.copyOf(param, param.length);
 		int temp = 0;
 		
 		for(int index1 = 0; index1 < param.length; index1++) {
